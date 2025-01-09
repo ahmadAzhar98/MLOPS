@@ -4,7 +4,7 @@ import os
 import logging
 import yaml
 
-log_dir = 'log'
+log_dir = 'logs'
 os.makedirs(log_dir, exist_ok=True)
 log_file_path = os.path.join(log_dir, 'data_ingestion.log')
 
